@@ -26,10 +26,18 @@ body {
 }
 
 h1 {
-  font-family: "Permanent Marker", cursive;
+  /*font-family: "Permanent Marker", cursive;*/
+  font-family: "Stylish", sans-serif;
+  font-size: 50px;
   font-size: 30px;
   padding-left: 15px;
   padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
 }
 
 nav {
@@ -39,7 +47,43 @@ nav {
 
 p {
   font-family: "Permanent Marker", cursive;
-  font-size: 100px;
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+span {
+  font-family: "Permanent Marker", cursive;
+  font-size: 15px;
+}
+
+label {
+  font-family: "Stylish", sans-serif;
+  font-size: 50px;
+}
+
+.button__1 {
+  font-family: "Permanent Marker", cursive;
+  width: 30px;
+  height: 30px;
+  /* position: inherit; */
+}
+
+.button__2 {
+  font-family: "Permanent Marker", cursive;
+  height: 5rem;
+  width: 10rem;
+}
+
+.button__3 {
+  font-family: "Stylish", sans-serif;
+  height: 5rem;
+  width: 10rem;
+  font-size: 20px;
+}
+
+.input--1 {
+  height: 30px;
+  padding-left: 100px;
 }
 
 .nav {
