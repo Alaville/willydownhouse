@@ -41,7 +41,6 @@ class App {
     value += 1;
     label.textContent = value;
     console.log(this.#users);
-    console.log(this);
   }
 
   addNewUser() {
