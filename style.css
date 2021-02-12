@@ -40,82 +40,17 @@ h2 {
   font-size: 30px;
 }
 
-nav {
+button {
   font-family: "Permanent Marker", cursive;
-  font-size: 15px;
+  height: 15rem;
+  width: 15rem;
 }
 
-p {
-  font-family: "Permanent Marker", cursive;
-  font-size: 50px;
-  padding-bottom: 50px;
+img {
+  height: 15rem;
+  width: 15rem;
 }
 
-span {
-  font-family: "Permanent Marker", cursive;
-  font-size: 15px;
-}
-
-label {
-  font-family: "Stylish", sans-serif;
-  font-size: 50px;
-}
-
-.button__1 {
-  font-family: "Permanent Marker", cursive;
-  width: 30px;
-  height: 30px;
-  /* position: inherit; */
-}
-
-.button__2 {
-  font-family: "Permanent Marker", cursive;
-  height: 5rem;
-  width: 10rem;
-}
-
-.button__3 {
-  font-family: "Stylish", sans-serif;
-  height: 5rem;
-  width: 10rem;
-  font-size: 20px;
-}
-
-.input--1 {
-  height: 30px;
-  padding-left: 100px;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 9rem;
-  width: 100%;
-  padding: 0 6rem;
-  z-index: 100;
-}
-
-.nav__links {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-.nav__item {
-  margin-left: 10rem;
-}
-
-.nav__link:link,
-.nav__link:visited {
-  font-size: 1.7rem;
-  font-weight: 400;
-  color: inherit;
-  text-decoration: none;
-  display: block;
-  transition: all 0.3s;
-}
-
-.input {
-  padding-top: 100px;
+.hidden {
+  display: none;
 }
