@@ -51,6 +51,27 @@ img {
   width: 15rem;
 }
 
+p {
+  font-family: "Permanent Marker", cursive;
+  font-size: 20px;
+}
+
+textarea {
+  background-color: rgb(224, 205, 223);
+  width: 500px;
+}
+
 .hidden {
   display: none;
+}
+
+.btn {
+  font-family: "Permanent Marker", cursive;
+  height: 5rem;
+  width: 15rem;
+}
+
+.input {
+  height: 5rem;
+  font-size: 20px;
 }

@@ -49,6 +49,51 @@ btnsAll.forEach((btn) => {
   btnPress(btn);
 });
 
+const arr1 = [3, "a", "a", "a", [2, 3, "a", [3, "a"], 2, 4], 9, 3];
+const array1 = [1, 0, 2, 3, 4];
+const array2 = [3, 5, 6, 7, 8];
+// Expected Output :
+// [4, 5, 8, 10, 12, 13]
+
+const sumTwoArraysBasedOnIndex = function (ar1, ar2) {
+  const final = [];
+  if (ar1.length === ar2.length) {
+    ar1.forEach((el, i) => {
+      final.push(el + ar2[i]);
+    });
+  }
+  return final;
+};
+
+console.log(sumTwoArraysBasedOnIndex(array1, array2));
+
+const removeNullishValues = function (arr) {
+  const final = [];
+  arr.forEach((value) => {
+    if (Boolean(value) === true) {
+      final.push(value);
+    }
+  });
+  return final;
+};
+
+console.log(
+  removeNullishValues([
+    NaN,
+    0,
+    15,
+    false,
+    -22,
+    "",
+    "dssdfsdf",
+    undefined,
+    47,
+    null,
+  ])
+);
+
+//console.log(arr.slice(-2));
+
 /* btnsAll.forEach((btn) => {
   btn.addEventListener("click", function (e) {
     e.preventDefault();
