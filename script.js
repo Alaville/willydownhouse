@@ -49,13 +49,33 @@ btnsAll.forEach((btn) => {
   btnPress(btn);
 });
 
-const arr1 = [3, "a", "a", "a", [2, 3, "a", [3, "a"], 2, 4], 9, 3];
-const array1 = [1, 0, 2, 3, 4];
-const array2 = [3, 5, 6, 7, 8];
+const data = [1, 2, 3, 1, 2];
+
+const isEqual = (firstArray, secondArray) => {
+  if (firstArray.length !== secondArray.length) {
+    return false;
+  } else {
+    firstArray.forEach((val) => {
+      secondArray.forEach((num) => {});
+    });
+  }
+};
+const arr1 = [1, 2, 3, 4];
+const arr2 = [1, 2, 3, 4];
+const arr3 = [1, 2, 3, 5];
+const arr4 = [1, 2, 3, 4, 5];
+
+const compared = arr1.map((el, i) => arr3[i] === el);
+console.log(compared);
+
+// isEqual(arr1, arr2); // true
+// isEqual(arr1, arr3); // false
+// isEqual(arr1, arr4); // false
+
 // Expected Output :
 // [4, 5, 8, 10, 12, 13]
 
-const sumTwoArraysBasedOnIndex = function (ar1, ar2) {
+/* const sumTwoArraysBasedOnIndex = function (ar1, ar2) {
   const final = [];
   if (ar1.length === ar2.length) {
     ar1.forEach((el, i) => {
@@ -65,32 +85,9 @@ const sumTwoArraysBasedOnIndex = function (ar1, ar2) {
   return final;
 };
 
-console.log(sumTwoArraysBasedOnIndex(array1, array2));
+console.log(sumTwoArraysBasedOnIndex(array1, array2)); */
 
-const removeNullishValues = function (arr) {
-  const final = [];
-  arr.forEach((value) => {
-    if (Boolean(value) === true) {
-      final.push(value);
-    }
-  });
-  return final;
-};
-
-console.log(
-  removeNullishValues([
-    NaN,
-    0,
-    15,
-    false,
-    -22,
-    "",
-    "dssdfsdf",
-    undefined,
-    47,
-    null,
-  ])
-);
+//var sortedObjs = _.sortBy( objs, 'first_nom' );
 
 //console.log(arr.slice(-2));
 
