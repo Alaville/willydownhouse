@@ -10,9 +10,7 @@
 // const label = document.querySelector("label");
 
 const btnsAll = document.querySelectorAll(".button");
-let ones = 0;
-let twos = 0;
-let threes = 0;
+
 const randNums = [];
 
 const newRandomNum = function () {
@@ -30,15 +28,6 @@ const btnPress = function (btn) {
 
     //random num
     let randomNum = newRandomNum();
-    randNums.push(randomNum);
-
-    // max two times same random number
-
-    // arvotut numerot
-
-    console.log(randNums);
-    console.log(e.target);
-    console.log(randomNum);
 
     e.target.src = `muisti${randomNum}.jpg`;
     isPressed = true;
@@ -50,23 +39,6 @@ btnsAll.forEach((btn) => {
 });
 
 const data = [1, 2, 3, 1, 2];
-
-const isEqual = (firstArray, secondArray) => {
-  if (firstArray.length !== secondArray.length) {
-    return false;
-  } else {
-    firstArray.forEach((val) => {
-      secondArray.forEach((num) => {});
-    });
-  }
-};
-const arr1 = [1, 2, 3, 4];
-const arr2 = [1, 2, 3, 4];
-const arr3 = [1, 2, 3, 5];
-const arr4 = [1, 2, 3, 4, 5];
-
-const compared = arr1.map((el, i) => arr3[i] === el);
-console.log(compared);
 
 // isEqual(arr1, arr2); // true
 // isEqual(arr1, arr3); // false

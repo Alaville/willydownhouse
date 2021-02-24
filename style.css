@@ -1,77 +1,70 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  font-size: 62.5%;
   box-sizing: border-box;
 }
 
 body {
-  /* font-family: "Permanent Marker", cursive; */
-  /* font-size: 20px;
-  padding: 20%; */
-  /*color: var(--color-light--2);
-    font-weight: 400;
-    line-height: 1.6;
-    height: 100vh;
-    overscroll-behavior-y: none;
-   */
-  background-color: rgb(225, 231, 207);
-  padding: 2rem;
-
-  /* display: flex; */
-}
-
-h1 {
-  /*font-family: "Permanent Marker", cursive;*/
   font-family: "Stylish", sans-serif;
-  font-size: 50px;
-  font-size: 30px;
-  padding-left: 15px;
-  padding-top: 100px;
-  padding-bottom: 20px;
 }
 
-h2 {
-  font-family: "Permanent Marker", cursive;
+/* font-family: "Permanent Marker", cursive; */
+/* font-family: "Stylish", sans-serif; */
+
+header {
+  margin: 0;
+}
+.nav {
+  background: #0f0f0f;
+}
+.nav__link {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 30px;
   font-size: 30px;
 }
 
-button {
+.nav__link:hover {
+  background: #5b5b5b;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: #848484;
+}
+
+.nav__label {
   font-family: "Permanent Marker", cursive;
-  height: 15rem;
-  width: 15rem;
+  font-size: 35px;
+  color: #848484;
 }
 
 img {
-  height: 15rem;
-  width: 15rem;
+  max-width: 100%;
 }
 
-p {
-  font-family: "Permanent Marker", cursive;
-  font-size: 20px;
+.section--1 {
+  background: #0f0f0f;
+  padding: 30px;
 }
 
-textarea {
-  background-color: rgb(224, 205, 223);
-  width: 500px;
+.section--1 h2 {
+  display: block;
+  text-align: center;
+  padding-top: 40px;
+  color: #848484;
+  font-size: 30px;
 }
 
-.hidden {
-  display: none;
+.section--1 p {
+  font-family: "Stylish", sans-serif;
+  text-align: center;
+  color: #848484;
+  margin: 30px 70px;
 }
 
-.btn {
-  font-family: "Permanent Marker", cursive;
-  height: 5rem;
-  width: 15rem;
-}
-
-.input {
-  height: 5rem;
-  font-size: 20px;
+.sec-1.border {
+  border: 2px solid #848484;
+  padding: 20px;
 }
